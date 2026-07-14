@@ -26,4 +26,7 @@ weight = 2
 [[menu.main]]
 name = "分类"
 url = "/categories/"
-weight = 3
+weight = 
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
