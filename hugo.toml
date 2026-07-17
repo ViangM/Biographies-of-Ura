@@ -9,6 +9,10 @@ ShowReadingTime = false
 ShowShareButtons = false
 ShowPostNavLinks = true
 
+[params.label]
+icon = "images/logo.png"
+iconHeight = 30
+
 [params.homeInfoParams]
 Title = "有同学列传"
 Content = "Biographies-of-Ura"

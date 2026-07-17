@@ -43,8 +43,9 @@
 <div id="share-card-render" style="position: absolute; left: -9999px; top: 0; width: 600px; background: #ffffff; padding: 32px; font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif; box-shadow: none;">
   <div id="share-card-inner">
     <!-- Header: Title + meta -->
-    <div style="border-bottom: 2px solid #e0e0e0; padding-bottom: 16px; margin-bottom: 20px;">
-      <h1 id="share-card-title" style="font-size: 24px; font-weight: 700; color: #1a1a1a; line-height: 1.4; margin: 0 0 8px 0;"></h1>
+    <div style="border-bottom:2px solid #e0e0e0; padding-bottom:10px; min-height:55px; margin-bottom:20px; position:relative;">
+      <img src="{{ "images/share-deco.png" | relURL }}" alt="" style="position:absolute;right:0px;top:-65px;height:120px;width:auto;object-fit:contain;pointer-events:none;">
+      <h2 id="share-card-title" style="font-size:22px;font-weight:700;color:#1a1a1a;margin:0 100px 10px 0;line-height:1.4;"></h2>
       <div id="share-card-meta" style="font-size: 13px; color: #888;">
         <span id="share-card-date"></span>
         <span style="margin: 0 6px;">·</span>
